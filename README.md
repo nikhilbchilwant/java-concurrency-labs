@@ -1,6 +1,6 @@
 # Java Concurrency Labs - SDE2 Interview Prep
 
-> **AI-Generated Repository**: This project was created with AI assistance. Review all code before production use.
+> **AI-Generated Repository**: This project was created with AI assistance.
 
 A hands-on learning project with skeleton code for mastering Java concurrency.
 
