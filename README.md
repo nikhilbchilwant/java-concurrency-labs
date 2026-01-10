@@ -27,16 +27,18 @@ mvn exec:java -Dexec.mainClass="com.concurrency.labs.lab08.CounterComparison"
 
 ### 🎓 Sequential Path (Recommended for Learning)
 
-Go through labs in order - each builds on the previous:
+Go through modules in order - each builds on the previous:
 
-| Module | Labs | Key Concepts |
-|--------|------|--------------|
-| Module 1 | Labs 01-04 | Race conditions, visibility, wait/notify |
-| Module 2 | Labs 05-10 | Locks, atomics, ConcurrentHashMap, BlockingQueue |
-| Module 3 | Labs 11-14 | Executors, CompletableFuture, Fork/Join |
-| Module 4 | Labs 15-17 | Deadlock, graceful shutdown, debugging |
-| Module 5 | Labs 18-20 | Testing concurrent code |
-| Projects | 1-3 | Integration projects |
+| Step | Module | Labs | Key Concepts |
+|------|--------|------|--------------|
+| 1 | module1-foundations | 01-04, 22 | Race conditions, visibility, wait/notify, ThreadLocal |
+| 2 | module2-locks-atomics | 05-10 | Locks, atomics, ConcurrentHashMap, BlockingQueue |
+| 3 | module3-executors-async | 11-14, 21 | Executors, CompletableFuture, Fork/Join, Fan-Out/Fan-In |
+| 4 | module4-liveness-production | 15-17 | Deadlock, graceful shutdown, debugging |
+| 5 | module5-testing | 18-20 | Stress testing, race detection |
+| 6 | classic-problems | Tier 1-4 | Interview classics (Queue, Cache, Pool, etc.) |
+| 7 | projects | 1-3 | Capstone: Pipeline, Orchestrator, Scheduler |
+| 8 | lld-concurrency | 3 problems | LLD + Concurrency: Booking, Parking, PubSub |
 
 ### 🎯 Interview-Priority Path (If Time is Short)
 

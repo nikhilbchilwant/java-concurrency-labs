@@ -21,14 +21,17 @@
     </properties>
 
     <modules>
-        <module>module1-foundations</module>
-        <module>module2-locks-atomics</module>
-        <module>module3-executors-async</module>
-        <module>module4-liveness-production</module>
-        <module>module5-testing</module>
-        <module>classic-problems</module>
-        <module>projects</module>
-        <module>lld-concurrency</module>
+        <!-- Learning Sequence (follow this order) -->
+        <module>module1-foundations</module>       <!-- Labs 01-04, 22: Threads, Race, Visibility, Wait/Notify -->
+        <module>module2-locks-atomics</module>     <!-- Labs 05-10: Locks, CAS, CHM, Queues -->
+        <module>module3-executors-async</module>   <!-- Labs 11-14, 21: Executors, CF, Fork/Join -->
+        <module>module4-liveness-production</module> <!-- Labs 15-17: Deadlock, Shutdown, Debugging -->
+        <module>module5-testing</module>           <!-- Labs 18-20: Stress, Race Detection -->
+        
+        <!-- Practice Problems (after completing modules) -->
+        <module>classic-problems</module>          <!-- Tier 1-4: Interview classics -->
+        <module>projects</module>                  <!-- Capstone: Pipeline, Orchestrator, Scheduler -->
+        <module>lld-concurrency</module>           <!-- LLD+Concurrency: Booking, Parking, PubSub -->
     </modules>
 
     <dependencyManagement>
